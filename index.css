@@ -39,8 +39,8 @@ blockquote, q {
         box-sizing: border-box;
         padding: 0;
         margin: 0;
-        max-width: 300%;
-        border: 1px solid grey;
+        max-width: 100%;
+
     }
 
     /* General Styles */
@@ -51,11 +51,7 @@ color: #4f4f4f;
 
 
 }
-section{
 
-padding: 4% 0;
-
-}
 a{
     text-decoration: none;
 }
@@ -104,6 +100,10 @@ nav a{
     font-family: 'Roboto', monospace;
 
 }
+.topSection{
+    margin: auto;
+    padding: 3% 0%;
+}
 .left, .right{
     text-align: center;
     display: inline-block;
@@ -128,18 +128,19 @@ nav a{
 }
 
 /* Mid Section Styles */
-
+.mid{
+    margin: 20 20 20
+}
 .infoBlock{
-    width: 90%;
  display: inline-block;
  background-color: #DDB9A3;
  color: white;
  font-size: 2rem;
  text-align: center;
- margin: -4% 5% 1% 5%;
+ justify-content: center;
  padding:1.5%;
  font-family: 'Roboto Mono', monospace;
-
+ margin: 0% 5%;
 }
 .upperInfo{
     margin-bottom: 2%;
@@ -148,38 +149,41 @@ nav a{
 
 /* PSAs pics and paragraph styling */
 .psa{
-display: inline-block;
-margin-left: 30%;
-width: 80%;
-margin-top: -8%;
+margin: auto;
 }
 .fire{
     width: 50%;
-    text-align: center;
     font-size: 2rem;
     font-family: 'Roboto',monospace;
-    
+    margin: auto;
+    text-align: center;
 }
 img{
     width:35%;
+    margin: auto;
+}
+span{
+    font-weight: bold;
 }
 .camper{
     width: 50%;
-    text-align: center;
     font-size: 2rem;
     font-family: 'Roboto',monospace;
-    margin-top: 5%;
+    margin: auto;
     padding-bottom: -20%;
+    text-align: center;
 
 }
 /* bottom pic styling */
 .bottomPic{
-    width: 300%;
-    padding: 0;
-    margin-right: 0;
-    
+    margin:auto;
 }
-
+.footerImageContainer{
+    background: url(assets/footer_img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 23vh;
+}
 
 /* footer styling */
 footer{
